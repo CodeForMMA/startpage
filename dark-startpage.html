@@ -97,10 +97,8 @@
 	<div class="w3-container w3-display-middle w3-centered" style="width: 22em; margin-top: -4em;">
 		<img src="https://i.imgur.com/PktQ1i7.png" style="filter: invert(100%);"/>
         <!--Edit the search bar from here-->
-        <form action="https://duckduckgo.com/" method="get" onsubmit="return
-            decideWhatToDo()" id"ddg-search" action="https://www.duckduckgo.com/search">
-            <input class="w3-input w3-center w3-section" data-name="q" id="field-3"
-                maxlength="256" type="text" name="q" placeholder="Search" />
+        <form action="https://duckduckgo.com/" method="get" onsubmit="return search()" id"ddg-search" action="https://www.duckduckgo.com/search" autocomplete="off">
+            <input class="w3-input w3-center w3-section" data-name="q" id="field-3" maxlength="256" type="text" name="q" placeholder="Search" />
         </form>
 		<div class="w3-cell-row">
 			<div class="w3-container w3-cell w3-mobile">
@@ -126,7 +124,7 @@
 </body>
 
     <script>
-        function decideWhatToDo() {  
+        function search() {  
           let inputValue = document.getElementById('field-3').value;
 
           if (isDomain(inputValue)) {
