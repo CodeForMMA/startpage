@@ -11,6 +11,7 @@ git init
 git clone https://github.com/CodeForMMA/startpage.git
 ```
 
-From here you can set the `.html` file as your homepage for whatever browser you're using.<br \>
+From here you can set the `.html` file as your homepage for whatever browser you're using.
+
 Fyi: This has only been tested with Firefox.
 
