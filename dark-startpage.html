@@ -2,11 +2,12 @@
 <html>
 
 <head>
-	<title>Homepage</title>
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-	<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet" />
-     <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
-     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
+	<title>HQ</title>
+        <link rel="icon" href=”./favicon.png” type="image/icon type"/>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@400;700&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet" />
 	<style>
 		body {
 			font-family: 'Source Sans Pro', sans-serif;
@@ -145,39 +146,46 @@
 </head>
 
 <body>
-	<div class="w3-container w3-display-middle w3-centered" style="width: 22em; padding-bottom:35em; padding-left:130px">
-        <div class="clock">
-          <div class="hours">
-            <div class="first">
-              <div class="number">0</div>
-            </div>
-            <div class="second">
-              <div class="number">0</div>
-            </div>
-          </div>
-          <div class="tick">:</div>
-          <div class="minutes">
-            <div class="first">
-              <div class="number">0</div>
-            </div>
-            <div class="second">
-              <div class="number">0</div>
-            </div>
-          </div>
-        </div>
-    </div>
-	<div class="w3-container w3-display-middle w3-centered" style="width: 22em; margin-top: -2em;">
-		<img src="https://i.imgur.com/PktQ1i7.png" style="filter: invert(100%);"/>
+	<!--<div class="w3-container w3-display-middle w3-centered" style="width: 22em; padding-bottom:35em; padding-left:130px">-->
+        <!--<div class="clock">-->
+          <!--<div class="hours">-->
+            <!--<div class="first">-->
+              <!--<div class="number">0</div>-->
+            <!--</div>-->
+            <!--<div class="second">-->
+              <!--<div class="number">0</div>-->
+            <!--</div>-->
+          <!--</div>-->
+          <!--<div class="tick">:</div>-->
+          <!--<div class="minutes">-->
+            <!--<div class="first">-->
+              <!--<div class="number">0</div>-->
+            <!--</div>-->
+            <!--<div class="second">-->
+              <!--<div class="number">0</div>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+    <!--</div>-->
+    <div class="w3-container w3-display-middle w3-centered" style="width: 22em; margin-top: -2em; margin-bottom:+2em; ">
+        <img src="https://i.imgur.com/PktQ1i7.png" style="filter: invert(100%);"/>
         <!--Edit the search bar from here-->
-        <form action="https://duckduckgo.com/" method="get" onsubmit="return search()" id"ddg-search" action="https://www.duckduckgo.com/search" autocomplete="off">
-            <input class="w3-input w3-center w3-section" data-name="q" id="field-3" maxlength="256" type="text" name="q" placeholder="Search" />
-        </form>
-		<div class="w3-cell-row">
+<!--        <form action="https://duckduckgo.com/" method="get" onsubmit="return search()" id"ddg-search" action="https://www.duckduckgo.com/search" autocomplete="off">-->
+            <!--<input class="w3-input w3-center w3-section" data-name="q" id="field-3" maxlength="256" type="text" name="q" placeholder="Search" />-->
+        <!--</form>-->
+        <div class="w3-cell-row" style="margin-top: 2em; margin-left:-3em;"> 
 			<div class="w3-container w3-cell w3-mobile">
 				<ul class="w3-ul w3-center">
-					<li><h4>Updates</h4></li>
-					<li><a class="effect" href="https://hckrnews.com/">HackerNews</a></li>
-					<li><a class="effect" href="https://decrypt.co/">Decrypt</a></li>
+					<li><h4>Tech</h4></li>
+					<li><a class="effect" href="https://hckrnews.com/" target="_blank">HackerNews</a></li>
+					<li><a class="effect" href="https://decrypt.co/" target="_blank">Decrypt</a></li>
+                    <li><a class="effect" href="https://www.nasdaq.com/" target="_blank">Nasdaq</a></li>
+                    <li><a class="effect" href="https://www.reddit.com/r/defi/" target="_blank">Defi Reddit</a></li>
+                </ul>
+            </div>
+            <div class="w3-container w3-cell w3-mobile">
+                <ul class="w3-ul w3-center">
+                    <li><h4>News</h4></li>
 					<li><a class="effect" href="https://uk.reuters.com/">Reuters</a></li>
 					<li><a class="effect" href="https://www.bloomberg.com/europe">Bloomberg</a></li>
 					<li><a class="effect" href="https://www.ft.com/">Ft</a></li>
@@ -187,7 +195,8 @@
 				<ul class="w3-ul w3-center">
 					<li><h4>Learn</h4></li>
 					<li><a class="effect" href="https://keats.kcl.ac.uk/my/">KEATS</a></li>
-					<li><a class="effect" href="https://tryhackme.com/">HackMe</a></li>
+					<li><a class="effect" href="https://tryhackme.com/">TryHackMe</a></li>
+                    <li><a class="effect" href="https://www.hackerrank.com/dashboard" target="_blank">HackerRank</a></li>
 				</ul>
 			</div>
 			<div class="w3-container w3-cell w3-mobile">
